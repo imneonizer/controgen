@@ -82,7 +82,7 @@ def run_app():
     App().run()
  
 # use direct link to app.py in app_url parameter
-check_for_updates(ssid="ota", password="123456789", app_url="http://192.168.191.5:5000/update")
+check_for_updates(ssid="ota", password="123456789", app_url="https://raw.githubusercontent.com/imneonizer/controgen/master/app.py")
 
 # entrypoint for the application
 run_app()
